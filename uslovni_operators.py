@@ -53,7 +53,6 @@ s = '0123456789098768432'
 for i in range(0, len(s), 5):
     print(s[i], end=' ')
 
-
 s = 'Hello'
 print(s[::-1])
 print(s[::-2])

@@ -27,3 +27,11 @@ print(set1)
 set1 = {1, 3, 4, 'a', 'k'}
 set1.pop()
 print(set1)
+
+#программа для слияния нескольких словарей в один
+dict_a = {1: 10, 2: 20}
+dict_b = {3: 30, 4: 40}
+dict_c = {5: 50, 6: 60}
+dict_a.update(dict_b)
+dict_a.updtae(dict_c)
+print(dict_a)
