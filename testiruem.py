@@ -1,10 +1,4 @@
-first = 52
-second = 15
-
-def function(first, third):
-    global second
-    end = first + second + third
-    return end
-function(10, 6)
-
-print('Сумма:', end)
+a = [1, 2, 3]
+b = [4, 8, 9]
+a.extend(b)
+print(a) 

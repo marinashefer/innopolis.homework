@@ -70,5 +70,5 @@ print(a)
 
 #insert
 a = [4, 2, 3]
-a.insert(__index:3, __object:4)
+a.insert(3, 4)
 print(a)
