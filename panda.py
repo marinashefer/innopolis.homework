@@ -6,3 +6,4 @@ df.to_csv('.csv')
 df = pd.read_csv('data.csv')
 print(df)
 
+# .groupby - команда
