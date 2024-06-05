@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('data.csv')
+data = pd.read_csv('titanic.csv')
 
 print(data.head(5))
 print(data.tail(5))
